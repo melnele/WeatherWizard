@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:id="@+id/lang_setting"
+        app:defaultValue="en"
+        app:entries="@array/lang"
+        app:entryValues="@array/lang_values"
+        app:key="@string/KEY_LANG"
+        app:title="@string/lang_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <PreferenceCategory android:title="@string/location">
+
+        <SwitchPreferenceCompat
+            app:disableDependentsState="true"
+            app:key="@string/KEY_GPS"
+            app:title="@string/gps" />
+        <Preference
+            app:dependency="@string/KEY_GPS"
+            app:title="@string/set_location">
+            <intent
+                android:targetClass="com.melnele.weatherwizard.view.settings.MapActivity"
+                android:targetPackage="com.melnele.weatherwizard" />
+        </Preference>
+
+        <EditTextPreference
+            app:enabled="false"
+            app:key="@string/KEY_CITY"
+            app:title="@string/location" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/units">
+        <ListPreference
+            android:id="@+id/temp_setting"
+            app:defaultValue="celsius"
+            app:entries="@array/temperature_unit"
+            app:entryValues="@array/temperature_unit_values"
+            app:key="@string/KEY_TEMP"
+            app:title="@string/temperature_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:id="@+id/wind_setting"
+            app:defaultValue="mps"
+            app:entries="@array/wind_speed_unit"
+            app:entryValues="@array/wind_speed_unit_values"
+            app:key="@string/KEY_WIND"
+            app:title="@string/wind_speed_title"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

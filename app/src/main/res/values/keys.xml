@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="KEY_FAVOURITE" translatable="false">fav</string>
+    <string name="KEY_ALERT_ARG" translatable="false">ALERT_ARG</string>
+    <string name="KEY_LAT_LNG" translatable="false">LAT_LNG</string>
+    <string name="KEY_LANG" translatable="false">LANG</string>
+    <string name="KEY_TEMP" translatable="false">TEMP</string>
+    <string name="KEY_WIND" translatable="false">WIND</string>
+    <string name="KEY_GPS" translatable="false">GPS</string>
+    <string name="KEY_LOCATION" translatable="false">LOCATION</string>
+    <string name="KEY_CITY" translatable="false">CITY</string>
+    <string name="KEY_FRESH" translatable="false">FRESH</string>
+    <string name="KEY_ALERTS" translatable="false">ALERTS</string>
+    <string name="KEY_ALARM" translatable="false">ALARM</string>
+    <string name="KEY_ALERT_FROM" translatable="false">ALERT_FROM</string>
+    <string name="KEY_ALERT_TO" translatable="false">ALERT_TO</string>
+</resources>

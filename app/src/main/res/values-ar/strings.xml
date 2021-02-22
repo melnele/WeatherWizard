@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherWizard</string>
+    <string name="settings">الإعدادات</string>
+    <string name="exit">الخروج</string>
+    <string name="celsius">سيلزيوس</string>
+    <string name="kelvin">كلفن</string>
+    <string name="fahrenheit">فهرنهايت</string>
+    <string name="mps">متر/ثانية</string>
+    <string name="mph">ميل/الساعة</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_favourites">المفضلة</string>
+    <string name="title_alerts">تحذيرات الطقس</string>
+    <string name="title_settings">الإعدادات</string>
+    <string name="temperature_title">وحدة الحرارة</string>
+    <string name="wind_speed_title">وحدة سرعة الرياح</string>
+    <string name="lang_title">اللغة</string>
+    <string name="gps">نظام تحديد المواقع</string>
+    <string name="from">من</string>
+    <string name="to">الي</string>
+    <string name="title">العنوان</string>
+    <string name="alarm">منبه</string>
+    <string name="notification">إشعار</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="ask_alerts">هل تريد تلقي تحذيرات لحالة الطقس؟</string>
+    <string name="weather_alert">تحذيرات الطقس</string>
+    <string name="on">تشغيل</string>
+    <string name="off">إيقاف</string>
+    <string name="alert_type">نوع التحذير</string>
+    <string name="location">الموقع</string>
+    <string name="set_location">تحديد الموقع</string>
+    <string name="units">الوحدات</string>
+    <string name="select_location_map">من فضلك اختر موقعا علي الخريطة</string>
+    <string name="not_set">غير محدد</string>
+    <string name="no_weather_alerts">لا يوجد تحذيرات من الطقس</string>
+    <string name="unknown_place">مكان غير معروف</string>
+    <string name="check_for_alerts_between">تفقد التحذيرات في الوقت ما بين:</string>
+    <string name="error">خطأ</string>
+</resources>

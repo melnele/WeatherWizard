@@ -1,0 +1,38 @@
+<resources>
+    <string name="celsius">Celsius</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="fahrenheit">Fahrenheit</string>
+
+    <string name="mps">Meters/Second</string>
+    <string name="mph">Miles/Hour</string>
+
+    <string-array name="temperature_unit">
+        <item>@string/celsius</item>
+        <item>@string/kelvin</item>
+        <item>@string/fahrenheit</item>
+    </string-array>
+    <string-array name="temperature_unit_values">
+        <item>celsius</item>
+        <item>kelvin</item>
+        <item>fahrenheit</item>
+    </string-array>
+
+    <string-array name="wind_speed_unit">
+        <item>@string/mps</item>
+        <item>@string/mph</item>
+    </string-array>
+    <string-array name="wind_speed_unit_values">
+        <item>mps</item>
+        <item>mph</item>
+    </string-array>
+
+    <string-array name="lang">
+        <item>English</item>
+        <item>العربية</item>
+    </string-array>
+
+    <string-array name="lang_values">
+        <item>en</item>
+        <item>ar</item>
+    </string-array>
+</resources>
